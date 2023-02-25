@@ -5,15 +5,7 @@ Code for [Pointer Solana Pay Tutorial](pointer.gg/tutorials/solana-pay-irl-payme
 
 
 ## Instalación de paquetes 
-npm install @solana/pay@0.2.0
-npm install @solana/web3.js
-npm install react-circular-progressbar
-npm install @solana/wallet-adapter-base
- 
-npm install @solana/wallet-adapter-react 
-npm install @solana/wallet-adapter-react-ui
+yarn install
 
-npm install @solana/wallet-adapter-wallets
-
-
-
+## Correr en dev
+yarn dev
