@@ -4,7 +4,7 @@ Sube tu menú en Excel y empieza a cobrar en dólares (USDC). Powered by Solana 
 
 <p align="center">
     <br>
-    <img src="img/sanwis.png" width="500"/>
+    <img src="img/sanwis.svg" width="500"/>
     <br>
 <p>
 
