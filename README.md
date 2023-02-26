@@ -4,7 +4,7 @@ Sube tu menú en Excel y empieza cobrar en dólares. Powered by Solana Pay
 
 <p align="center">
     <br>
-    <img src="imgs/landing.png" width="500"/>
+    <img src="img/sanwis.svg" width="500"/>
     <br>
 <p>
 
