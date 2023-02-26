@@ -19,7 +19,23 @@ export default function Checkout() {
   const qrRef = useRef<HTMLDivElement>(null) // ref to a div where we'll show the QR code
   let amount = useMemo(() => calculatePrice(router.query), [router.query])
   const reference = useMemo(() => Keypair.generate().publicKey, []) // Unique address that we can listen for payments to
-  const network = WalletAdapterNetwork.Devnet
+  
+
+  // Read the URL query (which includes our chosen products)
+  const searchParams = new URLSearchParams({ reference: reference.toString() });
+  for (const [key, value] of Object.entries(router.query)) {
+    if (value) {
+      if (Array.isArray(value)) {
+        for (const v of value) {
+          searchParams.append(key, v);
+        }
+      } else {
+        searchParams.append(key, value);
+      }
+    }
+  }
+  
+  const network = WalletAdapterNetwork.Devnet // WalletAdapterNetwork.Devnet TODO 
   const endpoint = clusterApiUrl(network)
   const connection = new Connection(endpoint)
 
@@ -30,7 +46,6 @@ export default function Checkout() {
   }
 
   function upgradeData() {
-    console.log("count",count)
     let new_amount = new BigNumber(0);
     new_amount = new_amount.plus(+amount/+value)
 
@@ -42,9 +57,11 @@ export default function Checkout() {
       label: "🥪 Sanwis 🥪 ",
       message: "Gracias !",
     }
-
     const url = encodeURL(urlParams)
     const qr = createQR(url, 412, 'transparent')
+    
+
+
     
     if (qrRef.current && new_amount.isGreaterThan(0)) {
       qrRef.current.innerHTML = ''
