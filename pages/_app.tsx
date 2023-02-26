@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Layout>
       <Head>
         <title>Sanwis</title>
-        <div className='w-[521px] h-[152px]' >
+        <div>
           <Image 
             src={logo_completo} 
             alt="logo" 
