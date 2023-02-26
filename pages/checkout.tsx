@@ -70,9 +70,9 @@ export default function Checkout() {
     }
   }
   
-  useEffect( () => {
-    console.log(count)
-  }, [count])
+  // useEffect( () => {
+  //   console.log(count)
+  // }, [count])
 
   // Check every 0.5s if the transaction is completed
   useEffect(() => {
@@ -97,7 +97,6 @@ export default function Checkout() {
           if (+count < +value){
             setStart(false)
             setCount(count + 1)
-            console.log(count)
             
           }else{
             router.push('/confirmed')

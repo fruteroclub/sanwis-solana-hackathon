@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { products } from "../lib/products"
 import NumberInput from "./NumberInput";
-import Image from 'next/image'
+// import Image from 'next/image'
 
 interface Props {
   submitTarget: string;
@@ -22,12 +22,12 @@ export default function Products({ submitTarget, enabled }: Props) {
               
               <div className="rounded-md bg-red-700 text-left p-8" key={product.id}>
                 
-                <Image 
+                {/* <Image 
                   src= {product.url}
                   alt="imgss"
                   width={500}
                   height={200}
-                />
+                /> */}
                 <h3 className="text-2xl font-bold text-white">{product.name}</h3>
                 <p className="text-sm text-white">{product.description}</p>
                 <p className="my-4 ">
