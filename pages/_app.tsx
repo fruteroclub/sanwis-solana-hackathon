@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Layout from '../components/Layout'
 import Head from 'next/head'
-import { texto } from '../assets';
+import { logo_completo } from '../assets';
 import Image from 'next/image'
 
 
@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Layout>
       <Head>
         <title>Sanwis</title>
-        <Image src={texto} alt="logo" className='w-[521px] h-[152px]' />
+        <Image src={logo_completo} alt="logo" className='w-[521px] h-[152px]' />
       </Head>
       <Component {...pageProps} />
     </Layout>
