@@ -1,5 +1,6 @@
 import Products from '../components/Products'
 import SiteHeading from '../components/SiteHeading'
+import { getData } from './api/sheets'
 
 export default function HomePage() {
   return (
@@ -7,6 +8,21 @@ export default function HomePage() {
       <SiteHeading>Sanwis</SiteHeading>
       
       <Products submitTarget='/checkout' enabled={true} />
+
+
     </div>
   )
+}
+
+export async function getStaticProps() {
+  const products = await getData();
+  return {
+    props: {
+      products,
+    },
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every second
+    revalidate: 1, // In seconds
+  };
 }
