@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
-import logo_2 from "./logo.jpeg"
+import cara from "./cara.svg";
+import dibujo from "./dibujo.svg";
+import logo_completo from "./logo_completo.svg";
+import texto from "./texto.svg";
 
 export {
-    logo,
-    logo_2
+    cara,
+    dibujo,
+    logo_completo,
+    texto,
 }
 
