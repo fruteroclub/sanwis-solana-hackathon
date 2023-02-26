@@ -12,8 +12,9 @@ Sube tu menú en Excel y empieza a cobrar en dólares (USDC). Powered by Solana 
 
 | ¿Qué? | Link |
 |---|---|
-| Landing Page | https://sanwis.framer.website |
+| Landing Page | https://sanwis.framer.website/inicio |
 | App | https://sanwis-solana-hackathon.vercel.app/ |
+| Youtube | https://www.youtube.com/watch?v=ZXQgyDpEkeA |
 | Instagram | https://instagram.com/clubsanwis |
 | Twitter | https://twitter.com/clubsanwis |
 | Tiktok | https://tiktok.com/clubsanwis |
