@@ -17,7 +17,8 @@ Sube tu menú en Excel y empieza a cobrar en dólares (USDC). Powered by Solana 
 | Instagram | https://instagram.com/clubsanwis |
 | Twitter | https://twitter.com/clubsanwis |
 | Tiktok | https://tiktok.com/clubsanwis |
-| Branding | https://tiktok.com/clubsanwis |
+| Branding | https://bit.ly/brandingsanwis |
+
 ## ¿Cómo funciona?
 
 1. Llena tu menú con platillos y precios en Excel o Google Sheets.
