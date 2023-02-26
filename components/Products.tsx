@@ -11,7 +11,7 @@ interface Props {
 export default function Products({ submitTarget, enabled }: Props) {
   const formRef = useRef<HTMLFormElement>(null);
 
-  
+
 
   return (
     <form method='get' action={submitTarget} ref={formRef}>
@@ -28,11 +28,11 @@ export default function Products({ submitTarget, enabled }: Props) {
                   width={500}
                   height={200}
                 />
-                <h3 className="text-2xl font-bold">{product.name}</h3>
-                <p className="text-sm text-gray-800">{product.description}</p>
-                <p className="my-4">
-                  <span className="mt-4 text-xl font-bold">{product.priceUsd} USD</span>
-                  {product.unitName && <span className="text-sm text-gray-800"> /{product.unitName}</span>}
+                <h3 className="text-2xl font-bold text-white">{product.name}</h3>
+                <p className="text-sm text-white">{product.description}</p>
+                <p className="my-4 ">
+                  <span className="mt-4 text-xl text-white font-bold">{product.priceUsd} USD</span>
+                  {product.unitName && <span className="text-sm text-white"> /{product.unitName}</span>}
                 </p>
                 <div className="mt-1">
                   <NumberInput name={product.id} formRef={formRef} />
