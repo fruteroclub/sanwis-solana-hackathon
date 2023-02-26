@@ -15,11 +15,14 @@ Sube tu menú en Excel y empieza cobrar en dólares. Powered by Solana Pay
 | Landing Page | https://sanwis.framer.website |
 | App | https://sanwis-solana-hackathon.vercel.app/ |
 | Instagram | https://instagram.com/clubsanwis |
-
-
+| Twitter | https://twitter.com/clubsanwis |
+| Tiktok | https://tiktok.com/clubsanwis |
 
 ## ¿Cómo funciona?
 
-1. Llena tu menú con platillos y precios en Excel o Google Sheets
+1. Llena tu menú con platillos y precios en Excel o Google Sheets.
+2. Comienza a cobrar en USDC.
+3. Retira tu dinero en cualquier Oxxo del país usando Decaf.
+    
 
 
