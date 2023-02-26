@@ -2,8 +2,8 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Layout from '../components/Layout'
 import Head from 'next/head'
-import { logo_completo } from '../assets';
-import Image from 'next/image'
+// import { logo_completo } from '../assets';
+// import Image from 'next/image'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -11,14 +11,15 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Layout>
       <Head>
         <title>Sanwis</title>
-        <div>
+        {/* <div>
           <Image 
             src={logo_completo} 
             alt="logo" 
+            
             width={521}
             height={152}
           />
-        </div>
+        </div> */}
         
       </Head>
       <Component {...pageProps} />
