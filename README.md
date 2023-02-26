@@ -1,6 +1,6 @@
 #  Sanwis
-
-Sube tu menú en Excel y empieza cobrar en dólares. Powered by Solana Pay
+La industria restaurantera se recupera de los estragos del COVID-19. Es necesario que haya alternativas rápidas, confiables y libres de comisiones para que más gente pueda aprovechar los beneficios de blockchain.
+Sube tu menú en Excel y empieza a cobrar en dólares (USDC). Powered by Solana Pay.
 
 <p align="center">
     <br>
@@ -17,7 +17,7 @@ Sube tu menú en Excel y empieza cobrar en dólares. Powered by Solana Pay
 | Instagram | https://instagram.com/clubsanwis |
 | Twitter | https://twitter.com/clubsanwis |
 | Tiktok | https://tiktok.com/clubsanwis |
-
+| Branding | https://tiktok.com/clubsanwis |
 ## ¿Cómo funciona?
 
 1. Llena tu menú con platillos y precios en Excel o Google Sheets.
