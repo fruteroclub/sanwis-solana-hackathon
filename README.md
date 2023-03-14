@@ -1,6 +1,6 @@
 #  Sanwis
-La industria restaurantera se recupera de los estragos del COVID-19. Es necesario que haya alternativas rápidas, confiables y libres de comisiones para que más gente pueda aprovechar los beneficios de blockchain.
-Sube tu menú en Excel y empieza a cobrar en dólares (USDC). Powered by Solana Pay.
+The restaurant industry is recovering from the ravages of COVID-19. There needs to be fast, reliable, and fee-free alternatives so that more people can reap the benefits of blockchain.
+Upload your menu in Excel and start charging in dollars (USDC). Powered by Solana Pay. Now you can cashout in Mexico using DECAF wallet.
 
 <p align="center">
     <br>
@@ -8,9 +8,9 @@ Sube tu menú en Excel y empieza a cobrar en dólares (USDC). Powered by Solana 
     <br>
 <p>
 
-## Links importantes
+## Important Links
 
-| ¿Qué? | Link |
+| ¿What? | Link |
 |---|---|
 | Landing Page | https://sanwis.framer.website/inicio |
 | App | https://sanwis-solana-hackathon.vercel.app/ |
@@ -20,13 +20,13 @@ Sube tu menú en Excel y empieza a cobrar en dólares (USDC). Powered by Solana 
 | Tiktok | https://tiktok.com/clubsanwis |
 | Branding | https://bit.ly/brandingsanwis |
 
-## ¿Cómo funciona?
+## ¿How it works?
 
-1. Llena tu menú con platillos y precios en Excel o Google Sheets.
-2. Comienza a cobrar en USDC.
-3. Retira tu dinero en cualquier Oxxo del país usando Decaf.
+1. Upload your restaurant menu to Excel or Google Sheets.
+2. Accept USDC with Solana Pay. 
+3. Cash-out your money in Mexico using Decaf Wallet.
 
-## El team
+## Our team
 
 <p align="center">
     <br>
